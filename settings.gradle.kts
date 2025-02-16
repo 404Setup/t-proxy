@@ -1,2 +1,2 @@
-rootProject.name = "t-base"
+rootProject.name = "t-proxy"
 
