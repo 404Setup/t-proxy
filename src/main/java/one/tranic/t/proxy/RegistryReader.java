@@ -10,6 +10,7 @@ import org.jetbrains.annotations.Nullable;
  * The class provides functionality for accessing proxy-related registry keys and
  * returning corresponding settings wrapped in a ProxySettings record.
  */
+@SuppressWarnings("unused")
 public class RegistryReader {
     /**
      * Reads proxy settings from the Windows registry and returns them as a ProxySettings object.

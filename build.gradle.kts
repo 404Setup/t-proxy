@@ -9,17 +9,17 @@ plugins {
 }
 
 group = "one.tranic"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("org.jetbrains:annotations:26.0.2")
+    compileOnly("org.jetbrains:annotations:26.0.2")
 
-    implementation("net.java.dev.jna:jna:5.16.0")
-    implementation("net.java.dev.jna:jna-platform:5.16.0")
+    compileOnly("net.java.dev.jna:jna:5.16.0")
+    compileOnly("net.java.dev.jna:jna-platform:5.16.0")
 }
 
 val targetJavaVersion = 17

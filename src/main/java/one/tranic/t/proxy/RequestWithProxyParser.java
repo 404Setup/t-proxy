@@ -13,6 +13,7 @@ import java.net.URL;
  * This class provides methods to open URL connections and input streams synchronously or asynchronously,
  * applying proxy settings retrieved automatically from the environment or system configuration.
  */
+@SuppressWarnings("unused")
 public class RequestWithProxyParser {
     private static Proxy proxy = ProxyConfigReader.getProxy();
 

@@ -12,6 +12,7 @@ import java.util.Map;
  * or operating system-specific configurations. The class provides methods to retrieve proxy
  * settings dynamically or use a static configuration, with support for both HTTP and HTTPS protocols.
  */
+@SuppressWarnings("unused")
 public class ProxyConfigReader {
 
     /**
